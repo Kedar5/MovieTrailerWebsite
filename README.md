@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-* Install lastest version of Python 2 from [python(Download link)](https://www.python.org/downloads/) by chosing the appropriate link for Windows/Mac/Linux,Other.
+* Install lastest version of Python 2 from [Python(Download link)](https://www.python.org/downloads/) by chosing the appropriate link for Windows/Mac/Linux,Other.
 
 * Install GitHub from [Git (Download link)](https://git-scm.com/downloads).
 

@@ -21,5 +21,5 @@ avatar = media.Movie("Avatar",
 #Creating a list of movies and store it in variable movies. 
 movies = [iron_man, titanic, avatar]
 
-#Pass the list of movies to the class open_movies_page of fresh_tomatoes html page.
+#Pass the list of movies as arguement to the class open_movies_page of fresh_tomatoes html page.
 fresh_tomatoes.open_movies_page(movies)

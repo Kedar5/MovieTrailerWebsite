@@ -16,4 +16,4 @@ python entertainment_center.py
 ```
 
 ## Screenshot
-<img src="" alt="Website image">
+<img src="https://github.com/Kedar5/MovieTrailerWebsite/blob/master/Screenshot/img.png" alt="Website image">

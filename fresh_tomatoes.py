@@ -40,8 +40,8 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
-            cursor: pointer;
+            background-color: #b3b3b3;       <!--Changed the color from #eee to #b3b3b3-->
+            cursor: crosshair;               <!--Changed from pointer to crosshair style-->
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -56,6 +56,10 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        .title{
+            margin-top: -4px;                <!--Align the title properly-->
+        }
+        
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -88,7 +92,8 @@ main_page_head = '''
 
 # The main page layout and title bar
 main_page_content = '''
-  <body>
+  <body background = "back_img.jpg">     <!--Background image bricks.jpg added. -->
+  
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
@@ -107,7 +112,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#"><h3 class = "title">Fresh Tomatoes Movie Trailers</h3></a>   <!--Font size increased prior to its size-->
           </div>
         </div>
       </div>
@@ -115,6 +120,7 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+    
   </body>
 </html>
 '''

@@ -57,7 +57,7 @@ main_page_head = '''
             background-color: white;
         }
         .title{
-            margin-top: -4px;                <!--Align the title properly-->
+            margin-top: -4px;                <!--Align the title in the navbar properly-->
         }
         
     </style>
@@ -92,7 +92,7 @@ main_page_head = '''
 
 # The main page layout and title bar
 main_page_content = '''
-  <body background = "back_img.jpg">     <!--Background image bricks.jpg added. -->
+  <body background = "back_img.jpg">     <!--Background image back_img.jpg added. -->
   
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">

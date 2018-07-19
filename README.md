@@ -20,8 +20,9 @@ Run the commands below one by one:
 ```sh
 git clone "https://github.com/Kedar5/MovieTrailerWebsite.git"
 cd MovieTrailerWebsite
-python entertainment_center.py
+python entertainment_center.py 
 ```
+Or just open the entertainment_center.py with IDLE and run it.
 
 ## Screenshot
 

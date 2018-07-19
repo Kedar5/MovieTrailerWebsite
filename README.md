@@ -1,13 +1,21 @@
 # MovieTrailerWebsite
-A static website showing posters of the movies and plays the youtube trailers on clicking them
 
+A static movie website that enables user to watch trailers of movies on clicking the movie posters.
 
-## Usage
+## Getting Started
 
-To get started with the boilerplate, simply make sure you have [Git (Download link)](https://git-scm.com/downloads)  installed in your system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Then open git bash in the folder where you want to create your new folder and run these commands one by one:
+### Installing
 
+* Install lastest version of Python 2 from [python(Download link)](https://www.python.org/downloads/) by chosing the appropriate link for Windows/Mac/Linux,Other.
+
+* Install GitHub from [Git (Download link)](https://git-scm.com/downloads).
+
+## Deployment
+
+After successful installation of GitHub, open git bash in the folder where you want this project to be cloned.
+Run the commands below one by one:
 
 ```sh
 git clone 
@@ -16,4 +24,9 @@ python entertainment_center.py
 ```
 
 ## Screenshot
+
 <img src="https://github.com/Kedar5/MovieTrailerWebsite/blob/master/Screenshot/img.png" alt="Website image">
+
+## Acknowledgments
+
+* Thank you Udacity team for the continuous support through lectures.

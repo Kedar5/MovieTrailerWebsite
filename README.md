@@ -18,9 +18,9 @@ After successful installation of GitHub, open git bash in the folder where you w
 Run the commands below one by one:
 
 ```sh
-git clone "https://github.com/Kedar5/MovieTrailerWebsite.git"
-cd MovieTrailerWebsite
-python entertainment_center.py 
+1) git clone "https://github.com/Kedar5/MovieTrailerWebsite.git"
+2) cd MovieTrailerWebsite
+3) python entertainment_center.py 
 ```
 Or just open the entertainment_center.py with IDLE and run it.
 
